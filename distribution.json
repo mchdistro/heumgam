@@ -1,0 +1,448 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "heumgam-1.20.1",
+      "name": "흐감타벨리",
+      "description": "Minecraft 1.20.1 (Fabric v0.19.3)",
+      "icon": "https://github.com/mchdistro/heumgam/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "chuchuchudamainchuch.p-e.kr:25578",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "a49accfa7e63a4176f60202aff1874e9",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/versions/1.20.1-fabric-0.19.3/1.20.1-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://github.com/mchdistro/heumgam/raw/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.9+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2111565,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/fabricmods/required/fabric-api-0.92.9+1.20.1.jar",
+            "MD5": "7872cc7a93aad304344f984f13223db3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.9.6+mc1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 625668,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/fabricmods/required/koreanpatch-fabric-1.9.6+mc1.20.1.jar",
+            "MD5": "52830b944422b8390b4163bd1a6f16ba"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.6.20@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5271506,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.6.20.jar",
+            "MD5": "8d02ba9f49c2c2f7fb601fbe53682aa5"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:26.3.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2224319,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/fabricmods/required/xaerominimap-fabric-1.20.1-26.3.0.jar",
+            "MD5": "f5f9edeb78c22eb836907eb0c8957679"
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.43.0@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1440195,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/fabricmods/required/xaeroworldmap-fabric-1.20.1-1.43.0.jar",
+            "MD5": "a562a4914e7b771ff8a63ca28cb6706e"
+          }
+        },
+        {
+          "id": "iris.properties",
+          "name": "iris.properties",
+          "type": "File",
+          "artifact": {
+            "size": 288,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/iris.properties",
+            "path": "config/iris.properties"
+          }
+        },
+        {
+          "id": "koreanpatch.json5",
+          "name": "koreanpatch.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1513,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/koreanpatch.json5",
+            "path": "config/koreanpatch.json5"
+          }
+        },
+        {
+          "id": "sodium-options.json",
+          "name": "sodium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 631,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/sodium-options.json",
+            "path": "config/sodium-options.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 5063,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 26,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/lib/client.cfg",
+            "path": "config/xaero/lib/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/lib/common.cfg",
+            "path": "config/xaero/lib/common.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/lib/profiles/default.cfg",
+            "path": "config/xaero/lib/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/lib/server_profiles/default.cfg",
+            "path": "config/xaero/lib/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 235,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/minimap/client.cfg",
+            "path": "config/xaero/minimap/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 147,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/minimap/common.cfg",
+            "path": "config/xaero/minimap/common.cfg"
+          }
+        },
+        {
+          "id": "default_radar_categories_client.json",
+          "name": "default_radar_categories_client.json",
+          "type": "File",
+          "artifact": {
+            "size": 5531,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/minimap/default_radar_categories_client.json",
+            "path": "config/xaero/minimap/default_radar_categories_client.json"
+          }
+        },
+        {
+          "id": "default_radar_categories_server.json",
+          "name": "default_radar_categories_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 4597,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/minimap/default_radar_categories_server.json",
+            "path": "config/xaero/minimap/default_radar_categories_server.json"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3825,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/minimap/profiles/default.cfg",
+            "path": "config/xaero/minimap/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg.txt",
+          "name": "default.cfg.txt",
+          "type": "File",
+          "artifact": {
+            "size": 684,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/minimap/profiles/info_display_config/default.cfg.txt",
+            "path": "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/minimap/server_profiles/default.cfg",
+            "path": "config/xaero/minimap/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/world-map/client.cfg",
+            "path": "config/xaero/world-map/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 141,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/world-map/common.cfg",
+            "path": "config/xaero/world-map/common.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1619,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/world-map/profiles/default.cfg",
+            "path": "config/xaero/world-map/profiles/default.cfg"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 75,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaero/world-map/server_profiles/default.cfg",
+            "path": "config/xaero/world-map/server_profiles/default.cfg"
+          }
+        },
+        {
+          "id": "xaerohud.txt",
+          "name": "xaerohud.txt",
+          "type": "File",
+          "artifact": {
+            "size": 124,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/config/xaerohud.txt",
+            "path": "config/xaerohud.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5800,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 113,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/servers.dat",
+            "MD5": "3f436542ab6be763ba22d9c1cae23cbf",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.7.1.zip",
+          "name": "ComplementaryReimagined_r5.7.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 522970,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+            "MD5": "bc5f557bb6844d27e7b7891170544ea9",
+            "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip"
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.7.1.zip.txt",
+          "name": "ComplementaryReimagined_r5.7.1.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://github.com/mchdistro/heumgam/raw/main/servers/heumgam-1.20.1/files/shaderpacks/ComplementaryReimagined_r5.7.1.zip.txt",
+            "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
